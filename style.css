@@ -1,0 +1,66 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  img {
+    width: 205px;
+    height: 275px;
+  }
+  .p2{
+    clear: both;
+  }
+  footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Responsive Styles (Media Queries) */
+  @media (max-width: 768px) {
+    nav ul {
+      text-align: center;
+    }
+  
+    nav li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    main {
+      padding: 10px;
+    }
+  }
